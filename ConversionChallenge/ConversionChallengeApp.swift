@@ -1,0 +1,17 @@
+//
+//  ConversionChallengeApp.swift
+//  ConversionChallenge
+//
+//  Created by Miriam Pfaffenbach on 01.12.22.
+//
+
+import SwiftUI
+
+@main
+struct ConversionChallengeApp: App {
+    var body: some Scene {
+        WindowGroup {
+            ContentView()
+        }
+    }
+}
