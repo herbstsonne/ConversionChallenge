@@ -7,18 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD9EF6052940EC4F007DE514 /* LengthContextViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9EF6042940EC4F007DE514 /* LengthContextViewExtension.swift */; };
 		CDDA053329390D28003632F9 /* ConversionChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDA053229390D28003632F9 /* ConversionChallengeApp.swift */; };
 		CDDA053529390D28003632F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDA053429390D28003632F9 /* ContentView.swift */; };
 		CDDA053729390D29003632F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDDA053629390D29003632F9 /* Assets.xcassets */; };
 		CDDA053A29390D29003632F9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDDA053929390D29003632F9 /* Preview Assets.xcassets */; };
+		CDDA0541293A447E003632F9 /* ConversionEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDA0540293A447E003632F9 /* ConversionEnums.swift */; };
+		CDDA0543293D5BC3003632F9 /* TemperatureContextViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDA0542293D5BC3003632F9 /* TemperatureContextViewExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CD9EF6042940EC4F007DE514 /* LengthContextViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LengthContextViewExtension.swift; sourceTree = "<group>"; };
 		CDDA052F29390D28003632F9 /* ConversionChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConversionChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDDA053229390D28003632F9 /* ConversionChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionChallengeApp.swift; sourceTree = "<group>"; };
 		CDDA053429390D28003632F9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CDDA053629390D29003632F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDDA053929390D29003632F9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CDDA0540293A447E003632F9 /* ConversionEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionEnums.swift; sourceTree = "<group>"; };
+		CDDA0542293D5BC3003632F9 /* TemperatureContextViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureContextViewExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +59,11 @@
 			children = (
 				CDDA053229390D28003632F9 /* ConversionChallengeApp.swift */,
 				CDDA053429390D28003632F9 /* ContentView.swift */,
+				CDDA0540293A447E003632F9 /* ConversionEnums.swift */,
 				CDDA053629390D29003632F9 /* Assets.xcassets */,
 				CDDA053829390D29003632F9 /* Preview Content */,
+				CDDA0542293D5BC3003632F9 /* TemperatureContextViewExtension.swift */,
+				CD9EF6042940EC4F007DE514 /* LengthContextViewExtension.swift */,
 			);
 			path = ConversionChallenge;
 			sourceTree = "<group>";
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDDA0541293A447E003632F9 /* ConversionEnums.swift in Sources */,
+				CD9EF6052940EC4F007DE514 /* LengthContextViewExtension.swift in Sources */,
 				CDDA053529390D28003632F9 /* ContentView.swift in Sources */,
 				CDDA053329390D28003632F9 /* ConversionChallengeApp.swift in Sources */,
+				CDDA0543293D5BC3003632F9 /* TemperatureContextViewExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
